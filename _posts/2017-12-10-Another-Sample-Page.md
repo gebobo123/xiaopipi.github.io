@@ -65,10 +65,7 @@ end
 
 ### Here is an unordered list:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+docker run --name study_xxqg -d --privileged=true -p 1234:8080 -v /etc/study_xxqg/:/opt/config/ registry.cn-hangzhou.aliyuncs.com/wxyhgk/xxgq:2.0
 
 ### And an ordered list:
 
